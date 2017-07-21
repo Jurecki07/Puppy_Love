@@ -1,129 +1,143 @@
-                                                        * {
-                                                        font-family: Helvetica, Arial, sans-serif;
-                                                        line-height: 1.6;
-                                                    }
-                                                    /* body {
-                                background-image: url("img/bg.jpg");
-                                margin-left: 100px;
-                            } */
-                                                    
-                                                    h2 {
-                                                        color: #1fabe5;
-                                                    }
-                                                    
-                                                    h3 {
-                                                        color: #1fabe5;
-                                                    }
-                                                    
-                                                    #site_header {
-                                                        background-color: #ff8523;
-                                                        padding: 2rem;
-                                                    }
-                                                    
-                                                    .main_navigation a {
-                                                        border-spacing: 5px, 15px;
-                                                        text-decoration: none;
-                                                        border-style: solid;
-                                                        border-spacing: 10px;
-                                                        padding: 20px;
-                                                        border-color: white;
-                                                        margin: 0px;
-                                                        font-family: Arial, sans-serif;
-                                                        color: white;
-                                                        border-width: 1px;
-                                                        Font-size: 10px;
-                                                    }
-                                                    
-                                                    #page_content ul li a {
-                                                        font-weight: bold;
-                                                        color: black;
-                                                    }
-                                                    /* section {
-                                border-bottom: solid lightgray;
-                                padding: 2rem;
-                            } */
-                                                    
-                                                    thead {
-                                                        background-color: #1fabe5;
-                                                        color: white;
-                                                    }
-                                                    
-                                                    td img {
-                                                        width: 50%;
-                                                    }
-                                                    
-                                                    td, table {
-                                                        /* tr td  { */
-                                                        /* outline-style: solid; */
-                                                        /* outline-color: #1fabe5; */
-                                                        border: 1px solid lightblue;
-                                                        text-align: center;
-                                                        vertical-align: middle;
-                                                        padding: 2rem;
-                                                        border-collapse: collapse;
-                                                        /* top border: solid;
-            left border: solid;
-            right border: solid; */
-                                                        /* table-layout: tab */
-                                                        line-height: -1.6;
-                                                    }
-                                                    
-                                                    form {
-                                                        background-color: #dddddd;
-                                                        padding: 5rem;
-                                                        Font: white;
-                                                    }
-                                                    
-                                                    .name {
-                                                        color: white;
-                                                        /* border-style: solid; */
-                                                        /* background-size: 100rem; */
-                                                        background-color: #ff8523;
-                                                        height: 80px;
-                                                        width: 1550px;
-                                                        padding: 10px;
-                                                    }
-                                                    
-                                                    label {
-                                                        padding: 10px;
-                                                    }
-                                                    
-                                                    .city_container {
-                                                        padding: 20px;
-                                                    }
-                                                    
-                                                    #first_name {
-                                                        padding: 10px;
-                                                        padding-left: 100px;
-                                                    }
-                                                    
-                                                    #last_name {
-                                                        padding: 10px;
-                                                        padding-left: 100px;
-                                                    }
-                                                    
-                                                    textarea {
-                                                        border-color: #1fabe5;
-                                                        padding: 10px;
-                                                        width: 1000px;
-                                                    }
-                                                    
-                                                    #submit_button {
-                                                        background-color: #1fabe5;
-                                                        color: white;
-                                                    }
-                                                    
-                                                    input {
-                                                        text-transform: uppercase;
-                                                        /* font info:
-    family - Helvetica, Arial, sans-serif
-    line-height - 1.6
-
-
-colors:
-    light gray - ##eee
-    gray - #dddddd
-    yellow - #ffd24a
-    orange - #ff8523
-    blue - #1fabe5
-    dark blue - #046c97 */
+    * {
+        font-family: Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+    }
+    
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background-image: url(/Users/jurecki/Documents/week/css_styling_assessment/starter_files/img/bg.jpg)
+    }
+    
+    div {
+        background: white;
+    }
+    
+    h2 {
+        color: #1fabe5;
+    }
+    
+    h3 {
+        color: #1fabe5;
+    }
+    
+    body > div {
+        width: 75%;
+        border: 2px solid #ffd24a;
+    }
+    
+    #site_header {
+        background-color: #ff8523;
+        padding: 2rem;
+    }
+    
+    .main_navigation {
+        margin-top: 15px;
+    }
+    
+    .main_navigation a {
+        text-decoration: none;
+        border-style: solid;
+        padding: 18px 45px;
+        border-spacing: 1px;
+        border-color: white;
+        font-family: Arial, sans-serif;
+        color: white;
+        border-radius: 10px;
+        border-width: 1px;
+        font-size: 10px;
+    }
+    
+    #page_content ul li a {
+        font-weight: bold;
+        color: black;
+    }
+    /* section {
+border-bottom: solid lightgray;
+padding: 2rem;
+} */
+    
+    thead {
+        background-color: #1fabe5;
+        color: white;
+    }
+    
+    td img {
+        width: 50%;
+    }
+    
+    td, table {
+        /* tr td  { */
+        /* outline-style: solid; */
+        /* outline-color: #1fabe5; */
+        border: 1px solid lightblue;
+        text-align: center;
+        vertical-align: middle;
+        padding: 2rem;
+        border-collapse: collapse;
+        /* top border: solid;
+left border: solid;
+right border: solid; */
+        /* table-layout: tab */
+        line-height: -1.6;
+    }
+    
+    form {
+        background-color: #dddddd;
+        padding: 1rem;
+    }
+    
+    .name {
+        color: white;
+        /* border-style: solid; */
+        /* background-size: 100rem; */
+        background-color: #ff8523;
+        height: 80px;
+        padding: 10px;
+        border-radius: 0.5rem;
+    }
+    /* label {
+                                                                                                    text-align: right;
+                                                                                                } */
+    
+    .city_container {
+        padding: 10px;
+        background-color: #dddddd;
+    }
+    
+    label {
+        text-align: right;
+    }
+    
+    #first_name {
+        padding: 10px;
+        padding-left: 100px;
+    }
+    
+    #last_name {
+        padding: 10px;
+        padding-left: 100px;
+    }
+    
+    textarea {
+        background-color: white;
+        border-color: #1fabe5;
+        padding: 10px;
+        width: 800px;
+    }
+    
+    #submit_button {
+        background-color: #1fabe5;
+        color: white;
+        padding: 3px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    input {
+        text-transform: uppercase;
+    }
+    /* family - Helvetica, Arial, sans-serif line-height - 1.6 colors: light gray - ##eee gray - #dddddd yellow - #ffd24a orange - #ff8523 blue - #1fabe5 dark blue - #046c97 */
+    
+    */
