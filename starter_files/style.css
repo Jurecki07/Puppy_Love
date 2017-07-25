@@ -10,10 +10,6 @@ body {
     background-image: url(/Users/jurecki/Documents/week/css_styling_assessment/starter_files/img/bg.jpg)
 }
 
-div {
-    background: white;
-}
-
 h2 {
     color: #1fabe5;
 }
@@ -26,6 +22,7 @@ body > div {
     margin: 0.5rem auto 2rem;
     max-width: 75%;
     border: 2px solid #ffd24a;
+    background: white;
 }
 
 #site_header {
@@ -94,40 +91,47 @@ table, td {
 form {
     background-color: #dddddd;
     padding: 1rem;
+    border-radius: 0.5rem;
 }
 
 .name {
     color: white;
     background-color: #ff8523;
-    height: 80px;
-    padding: 10px;
+    padding: 20px 15px;
     border-radius: 0.5rem;
 }
 
 .city_container {
-    padding: 10px;
-    background-color: #dddddd;
+    margin: 2rem 0;
 }
 
 label {
-    text-align: right;
+    font-weight: bold;
 }
 
 #first_name {
     padding: 10px;
-    padding-left: 100px;
+    width: 30%;
+    margin-right: 1rem;
 }
 
 #last_name {
     padding: 10px;
-    padding-left: 100px;
+    width: 30%;
+}
+
+form div:nth-child(3) {
+    margin-right: 1rem;
 }
 
 textarea {
-    background-color: white;
+    /* background-color: white; */
     border-color: #1fabe5;
-    padding: 10px;
-    width: 800px;
+    /* padding: 10px; */
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: .75rem;
 }
 
 #submit_button {
@@ -135,9 +139,12 @@ textarea {
     color: white;
     padding: 3px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 1rem;
 }
 
 input {
     text-transform: uppercase;
+    font-weight: bold;
 }
